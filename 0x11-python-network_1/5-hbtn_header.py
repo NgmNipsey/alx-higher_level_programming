@@ -10,4 +10,3 @@ if __name__ == "__main__":
 
     r = requests.get(url)
     print(r.headers.get("X-Request-Id"))
-
